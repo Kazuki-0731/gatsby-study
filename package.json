@@ -1,32 +1,36 @@
 {
-  "name": "gatsby-study",
+  "name": "gatsby-starter-default",
+  "description": "Gatsby default starter",
   "version": "1.0.0",
-  "private": true,
-  "description": "gatsby-study",
-  "author": "Kazuki-0731",
+  "author": "Hunter Chang",
+  "dependencies": {
+    "gatsby": "^2.20.12",
+    "gatsby-plugin-manifest": "^2.3.3",
+    "gatsby-plugin-offline": "^3.1.2",
+    "gatsby-plugin-react-helmet": "^3.2.1",
+    "gatsby-plugin-sass": "^5.14.0",
+    "node-sass": "6.0.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-helmet": "^5.2.1",
+    "react-images": "^1.0.0",
+    "sass-loader": "^13.0.0"
+  },
   "keywords": [
     "gatsby"
   ],
+  "license": "MIT",
   "scripts": {
-    "develop": "gatsby develop",
-    "start": "gatsby develop",
     "build": "gatsby build",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {
-    "@emotion/react": "^11.9.0",
-    "@emotion/styled": "^11.8.1",
-    "@mdx-js/mdx": "^1.6.22",
-    "@mdx-js/react": "^1.6.22",
-    "gatsby": "^4.14.1",
-    "gatsby-plugin-emotion": "^7.14.0",
-    "gatsby-plugin-image": "^2.14.1",
-    "gatsby-plugin-mdx": "^3.14.0",
-    "gatsby-plugin-sharp": "^4.14.1",
-    "gatsby-source-filesystem": "^4.14.0",
-    "gatsby-transformer-sharp": "^4.14.0",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+  "devDependencies": {
+    "prettier": "^2.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
   }
 }
