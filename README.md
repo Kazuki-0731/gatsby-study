@@ -56,8 +56,10 @@ Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cl
 ## 🚀  After deployment
 
 View build queue
-    - [gatsbystudymaster.gatsbyjs.io](https://gatsbystudymaster.gatsbyjs.io/)
+
+  - [gatsbystudymaster.gatsbyjs.io](https://gatsbystudymaster.gatsbyjs.io/)
 
 Last published build
-    - [gatsbystudymaster.gtsb.io](https://gatsbystudymaster.gtsb.io/)
+
+  - [gatsbystudymaster.gtsb.io](https://gatsbystudymaster.gtsb.io/)
 
