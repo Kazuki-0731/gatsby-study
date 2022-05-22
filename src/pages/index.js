@@ -3,12 +3,13 @@ import Helmet from 'react-helmet'
 
 import Gallery from '../components/Gallery'
 import Layout from '../components/layout'
+import AddressButton from '../event/AddressButton'
 
 // design from @codebushi
 // https://github.com/codebushi/gatsby-starter-dimension
 const HomeIndex = () => {
-  const siteTitle = 'Gatsby Starter - Strata'
-  const siteDescription = 'Site description'
+  const siteTitle = 'Kasuki Ishino'
+  const siteDescription = 'This is a site for studying gatsby.'
 
   return (
     <Layout>
@@ -56,6 +57,8 @@ const HomeIndex = () => {
             </li>
           </ul>
         </section>
+
+        <AddressButton></AddressButton>
 
         <section id="three">
           <h2>Get In Touch</h2>
