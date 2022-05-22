@@ -59,6 +59,5 @@ View build queue
     - [gatsbystudymaster.gatsbyjs.io](https://gatsbystudymaster.gatsbyjs.io/)
 
 Last published build
-
     - [gatsbystudymaster.gtsb.io](https://gatsbystudymaster.gtsb.io/)
 
