@@ -47,6 +47,23 @@
 
     - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
 
+## 🚀 How to deploy?
+1.  **generate build file**
+
+    ```shell
+    gatsby build
+    ```
+
+2.  **deploy command**
+
+    ```shell
+    surge public
+    ```
+
+3.  **Reference**
+
+    - [Gatsby公式チュートリアルやったよ](https://qiita.com/irico/items/cf87eb29ecaf7e135fcd)
+
 ## 🚀 Quick start (Gatsby Cloud)
 
 Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
