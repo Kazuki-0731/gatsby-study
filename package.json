@@ -9,6 +9,7 @@
     "@mdx-js/mdx": "v1",
     "@mdx-js/react": "v1",
     "eslint": "^8.0.1",
+    "eslint-config-prettier": "^8.5.0",
     "gatsby": "^4.15.1",
     "gatsby-plugin-emotion": "^7.15.0",
     "gatsby-plugin-image": "^2.15.0",
@@ -46,7 +47,7 @@
     "eslint-plugin-n": "^15.0.0",
     "eslint-plugin-promise": "^6.0.0",
     "eslint-plugin-react": "^7.30.0",
-    "prettier": "^2.6.2"
+    "prettier": "2.6.2"
   },
   "repository": {
     "type": "git",
