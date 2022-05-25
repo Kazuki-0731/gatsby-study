@@ -5,6 +5,7 @@ module.exports = {
     description: 'A Gatsby.js Starter based on Strata by HTML5 UP',
   },
   plugins: [
+    // ヘッダ管理(SEO対策含有)
     'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-plugin-manifest`,
@@ -19,21 +20,26 @@ module.exports = {
       },
     },
     'gatsby-plugin-sass',
+    // offline利用可能
     'gatsby-plugin-offline',
-    "gatsby-plugin-emotion", "gatsby-plugin-image", "gatsby-plugin-mdx", "gatsby-plugin-sharp", "gatsby-transformer-sharp", {
+    'gatsby-plugin-emotion',
+    'gatsby-plugin-image',
+    'gatsby-plugin-mdx',
+    'gatsby-plugin-sharp',
+    'gatsby-transformer-sharp', {
       resolve: 'gatsby-source-filesystem',
       options: {
-        "name": "images",
-        "path": "./src/assets/images/"
+        'name': 'images',
+        'path': './src/assets/images/'
       },
-      __key: "images"
+      __key: 'images'
     }, {
       resolve: 'gatsby-source-filesystem',
       options: {
-        "name": "pages",
-        "path": "./src/pages/"
+        'name': 'pages',
+        'path': './src/pages/'
       },
-      __key: "pages"
+      __key: 'pages'
     },
   ],
 }
