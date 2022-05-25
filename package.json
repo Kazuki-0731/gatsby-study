@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "gatsby-study",
   "description": "Gatsby default starter",
-  "version": "1.0.0",
-  "author": "Hunter Chang",
+  "version": "2.32.13",
+  "author": "Kazuki-0731",
   "dependencies": {
     "@emotion/react": "^11.9.0",
     "@emotion/styled": "^11.8.1",
@@ -38,6 +38,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/Kazuki-0731/gatsby-study"
   }
 }
