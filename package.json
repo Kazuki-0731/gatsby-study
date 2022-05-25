@@ -4,7 +4,10 @@
   "version": "1.0.0",
   "author": "Hunter Chang",
   "dependencies": {
+    "@emotion/react": "^11.9.0",
+    "@emotion/styled": "^11.8.1",
     "gatsby": "^2.32.13",
+    "gatsby-plugin-emotion": "^7.15.0",
     "gatsby-plugin-manifest": "^2.12.1",
     "gatsby-plugin-offline": "^3.10.2",
     "gatsby-plugin-react-helmet": "^3.10.0",
