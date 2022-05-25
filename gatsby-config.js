@@ -23,24 +23,5 @@ module.exports = {
     // offline利用可能
     'gatsby-plugin-offline',
     'gatsby-plugin-emotion',
-    'gatsby-plugin-image',
-    // Markdownの中にJSXを埋め込んで書く
-    'gatsby-plugin-mdx',
-    'gatsby-plugin-sharp',
-    'gatsby-transformer-sharp', {
-      resolve: 'gatsby-source-filesystem',
-      options: {
-        'name': 'images',
-        'path': './src/assets/images/'
-      },
-      __key: 'images'
-    }, {
-      resolve: 'gatsby-source-filesystem',
-      options: {
-        'name': 'pages',
-        'path': './src/pages/'
-      },
-      __key: 'pages'
-    },
   ],
 }
