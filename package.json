@@ -10,7 +10,7 @@
     "@mdx-js/react": "v1",
     "apollo-server-express": "^3.8.1",
     "eslint": "^8.0.1",
-    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-prettier": "8.5.0",
     "gatsby": "^4.15.1",
     "gatsby-plugin-emotion": "^7.15.0",
     "gatsby-plugin-image": "^2.15.0",
