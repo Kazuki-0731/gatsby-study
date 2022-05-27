@@ -24,7 +24,6 @@ module.exports = {
     'gatsby-plugin-offline',
     // css-in-js
     'gatsby-plugin-emotion',
-    // レスポンシブ画像生成
     'gatsby-plugin-image',
     // Markdownの中にJSXを埋め込んで書く
     'gatsby-plugin-mdx',
