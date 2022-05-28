@@ -27,8 +27,13 @@ module.exports = {
     // レスポンシブ画像生成
     'gatsby-plugin-image',
     // Markdownの中にJSXを埋め込んで書く
+    // TODO: バージョン違いでデプロイできない時がある
     'gatsby-plugin-mdx',
+    // Sharp画像処理ライブラリ
+    // Sharpとは、Webに適した画像変換ライブラリ
+    // 一般的なウェブ画像フォーマットの設定がすでに入っており、使いやすくなっている。
     'gatsby-plugin-sharp',
+    // レスポンシブ対応など
     'gatsby-transformer-sharp',
     {
       resolve: 'gatsby-source-filesystem',
