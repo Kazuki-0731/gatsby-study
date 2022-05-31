@@ -4,6 +4,7 @@ import Helmet from 'react-helmet'
 import Gallery from '../components/Gallery'
 import Layout from '../components/layout'
 import AddressButton from '../event/AddressButton'
+import FireBaseTestButton from '../event/FireBaseTestButton'
 
 // design from @codebushi
 // https://github.com/codebushi/gatsby-starter-dimension
@@ -56,7 +57,8 @@ const HomeIndex = () => {
           </ul>
         </section>
 
-        <AddressButton></AddressButton>
+        <AddressButton />
+        <FireBaseTestButton />
 
         <section id="three">
           <h2>Get In Touch</h2>
